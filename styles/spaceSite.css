@@ -1,0 +1,192 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Lato:wght@300;400;700&display=swap');
+
+:root {
+      --primary: #000d16;
+      --secondary: #1e3d58;
+      --accent1: #e8eef1;
+      --accent2: #eeffff;
+      --text-muted: rgba(232, 238, 241, 0.65);
+      --border:    rgba(30, 61, 88, 0.45);
+      --glow:      rgba(238, 255, 255, 0.08);
+}
+
+    body {
+     background-color: var(--primary);
+     color: var(--accent1);
+     font-family: 'Lato', sans-serif;
+     font-size: 1rem;
+     line-height: 1.75;
+     overflow-x: hidden;
+      
+    }
+
+   /*Haader Text*/
+    h1, h2, h3, h4, h5 {
+     font-family: 'Orbitron', sans-serif;
+     letter-spacing: 0.05em;
+     color: var(--accent2);
+    }
+
+    a {
+    color: var(--accent2);
+    text-decoration: none;
+    }
+    a:hover {
+    color: var(--accent1);
+    }
+
+
+    img {
+    display: block;
+    max-width: 100%;
+}
+
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 3rem;
+      top: 0;
+      z-index: 200;
+      background: var(--secondary);
+      border-bottom: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    nav ul {
+      display: flex;
+      text-align: center;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    
+
+    nav ul li a {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent1);
+      border-bottom: 2px solid transparent;
+      
+    }
+
+    nav ul li a:hover {
+      color: var(--accent2);
+      border-bottom: 2px solid var(--accent2);
+    }
+
+
+
+    header img {
+      width: auto;
+      height: 200px;
+      object-position: center 30%;
+      display: block;
+    }
+
+
+    p {
+        color: var(--text-muted);
+        text-align: center;
+        object-position: center;
+        position: relative;
+        display: block;
+        font-family: 'Orbitron', sans-serif;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        gap: 2.5rem;
+        max-width: 1100px;
+        margin: 5rem auto;
+        padding: 2.5rem 3rem;
+        background: rgba(30, 61, 88, 0.10);
+        border: 1px solid var(--border);
+        border-radius: 2px;
+        position: relative;
+        overflow: hidden;
+       
+    }
+
+    section img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 2px;
+        border: 1px solid var(--border);
+    }
+
+    section ul li:first-child {
+        font-family: 'Orbitron', sans-serif;
+        font-size: clamp(1.1rem, 2.2vw, 1.6rem);
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        color: var(--accent2);
+        margin-bottom: 0.6rem;
+        list-style: none;
+    }
+
+    
+    footer {
+        margin-top: 6rem;
+        padding: 3.5rem 3rem 2.5rem;
+        border-top: 1px solid var(--border);
+        background: rgba(0,13,22,0.7);
+    }
+
+    footer h5 {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 0.65rem;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        color: var(--accent2);
+        opacity: 0.55;
+        margin-bottom: 2rem;
+    }
+
+footer > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 860px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+footer ul li:first-child {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent2);
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+  list-style: none;
+}
+
+footer ul li a {
+  font-size: 0.88rem;
+  color: var(--accent1);
+  opacity: 0.55;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 1px;
+}
+
+footer ul li a:hover {
+  opacity: 1;
+  color: var(--accent2);
+  border-color: rgba(238,255,255,0.35);
+}
