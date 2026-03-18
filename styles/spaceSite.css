@@ -19,10 +19,14 @@
      font-size: 1rem;
      line-height: 1.75;
      overflow-x: hidden;
-      
+     background-image: url("../images/home_background.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;    
     }
 
-   /*Haader Text*/
+   /*HEader Text*/
     h1, h2, h3, h4, h5 {
      font-family: 'Orbitron', sans-serif;
      letter-spacing: 0.05em;
@@ -92,12 +96,15 @@
 
 
     p {
-        color: var(--text-muted);
+        
         text-align: center;
         object-position: center;
         position: relative;
         display: block;
         font-family: 'Orbitron', sans-serif;
+        background: rgba(30, 61, 88, 0.10);
+        border: 1px solid var(--border);
+        border-radius: 2px;
     }
 
     section {
