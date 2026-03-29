@@ -197,3 +197,87 @@ footer ul li a:hover {
   color: var(--accent2);
   border-color: rgba(238,255,255,0.35);
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hero-img {
+  display: block;
+  margin-right: 100%;
+  width: 800px;
+}
+
+#mercury {
+  display: block;
+  margin-right: 0%;
+  width: 500px;
+}
+
+#venus {
+  display: block;
+  margin-right: 40%;
+  width: 700px;
+}
+
+#earth {
+  display: block;
+  margin-right: 10%;
+  width: 1200px;
+}
+
+#mars {
+  display: block;
+  margin-right: 48%;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+}
+
+#asteroid-1 {
+  display: block;
+  
+}
+
+#asteroid-2 {
+  display: block;
+  
+}
+
+#asteroid-3 {
+  display: block;
+  
+}
+
+#asteroid-4 {
+  display: block;
+  
+}
+
+#asteroid-6 {
+  display: block;
+  
+}
+
+#asteroid-7 {
+  width: 600px;
+}
+
+#jupiter {
+  display: block;
+  margin-right: 100%;
+  width: 600px;
+}
+
+#neptune {
+  display: block;
+  margin-right: 0%;
+  width: 750px;
+}
+
+#pluto {
+  display: block;
+  margin-right: 70%;
+}
