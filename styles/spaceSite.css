@@ -323,3 +323,40 @@ img {
   margin-left: auto;
   width: 150px;
 }
+
+#mercury-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+}
+
+#venus-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+}
+
+#earth-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 650px;
+}
+
+#mars-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+}
+
+#saturn-big {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 900px;
+}
