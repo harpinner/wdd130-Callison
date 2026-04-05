@@ -207,121 +207,105 @@ img {
 #hero-img {
   display: block;
   margin-right: 100%;
-  width: 500px;
+  width: 800px;
 }
 
 #mercury {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 60px;
+  margin-right: 35%;
+  width: 70px;
 }
 
 #venus {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 80px;
+  margin-right: 55%;
+  width: 90px;
 }
 
 #earth {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 40%;
   width: 130px;
 }
 
 #mars {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 90px;
-  height: 90px;
+  margin-right: 52%;
   border-radius: 50%;
+  width: 110px;
 }
 
 #asteroid-1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-
-  
+  width: 140px;
 }
 
 #asteroid-2 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  
+  width: 140px;
 }
 
 #asteroid-3 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  
+  width: 140px;
 }
 
 #asteroid-4 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  
+  width: 140px;
 }
 
 #asteroid-6 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
-  
+  width: 140px;
 }
 
 #asteroid-7 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 80px;
+  width: 140px;
 }
 
 #jupiter {
   display: block;
   margin-right: 100%;
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
+  width: 550px;
 }
 
 #neptune {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 160px;
+  margin-right: 0%;
+  width: 450px;
 }
 
 #pluto {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  width: 40px;
+  margin-right: 40%;
+  width: 70px;
 }
 
 #saturn {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 450px;
 }
 
 #uranus {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 150px;
+  width: 400px;
 }
 
 #mercury-big {
@@ -359,4 +343,28 @@ img {
   margin-right: auto;
   margin-left: auto;
   width: 900px;
+}
+
+#hero-img-page {
+  display: block;
+  margin-right: 100%;
+  width: 500px;
+}
+
+#jupiter-page {
+  display: block;
+  margin-right: 100%;
+  width: 400px;
+}
+
+#pluto-page {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 530px;
+}
+
+#asteroid-belt {
+  display: flex;
+  justify-content: center;
 }
